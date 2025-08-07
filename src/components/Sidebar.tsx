@@ -15,7 +15,7 @@ const menuItems = [
 
 const Sidebar = () => {
   return (
-    <aside className="w-56 h-screen bg-gray-100 border-r">
+    <div className="w-56 h-screen bg-gray-100 border-r">
       <div className="p-4 text-lg font-semibold text-gray-800 border-b">
         ZNZ-CODER
       </div>
@@ -36,7 +36,7 @@ const Sidebar = () => {
           </NavLink>
         ))}
       </nav>
-    </aside>
+    </div>
   );
 };
 
